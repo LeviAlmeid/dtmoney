@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/github-page/static/js/main.cc0b2b0a.js",
-    "static/media/logo.svg": "/github-page/static/media/logo.614d71d1db9fdf3ca2355f05ed3b0142.svg",
-    "static/media/total.svg": "/github-page/static/media/total.e90c2d1e4d0cdd036cc577afd9f496eb.svg",
-    "index.html": "/github-page/index.html",
-    "static/media/outcome.svg": "/github-page/static/media/outcome.6eb96d3079777422e5bd5deaa688a46e.svg",
-    "static/media/income.svg": "/github-page/static/media/income.d58effe2f7ca5d17f64c8350e5fa2fe2.svg",
-    "main.cc0b2b0a.js.map": "/github-page/static/js/main.cc0b2b0a.js.map"
+    "main.js": "/dtmoney/static/js/main.06707e76.js",
+    "static/media/logo.svg": "/dtmoney/static/media/logo.614d71d1db9fdf3ca2355f05ed3b0142.svg",
+    "static/media/total.svg": "/dtmoney/static/media/total.e90c2d1e4d0cdd036cc577afd9f496eb.svg",
+    "static/media/outcome.svg": "/dtmoney/static/media/outcome.6eb96d3079777422e5bd5deaa688a46e.svg",
+    "static/media/income.svg": "/dtmoney/static/media/income.d58effe2f7ca5d17f64c8350e5fa2fe2.svg",
+    "index.html": "/dtmoney/index.html",
+    "main.06707e76.js.map": "/dtmoney/static/js/main.06707e76.js.map"
   },
   "entrypoints": [
-    "static/js/main.cc0b2b0a.js"
+    "static/js/main.06707e76.js"
   ]
 }

@@ -1,5 +1,6 @@
 {
   "name": "dtmoney",
+  "homepage": "github-page/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -1,24 +1,17 @@
-name: deploy
-
-on:
-  push:
-    branches:
-      - master
-
+name: CI
+on: [push]
 jobs:
-  deploy:
-    runs-on: ubuntu-18.04
+  build:
+    name: Test
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
+      - uses: borales/actions-yarn@v2.3.0
         with:
-          node-version: '14.x'
-      - name: Build web-app
-        run: |
-          yarn ci
-          yarn build
-      - name: Deploy to gh-pages
-        uses: peaceiris/actions-gh-pages@v3
+          cmd: install # will run `yarn install` command
+      - uses: borales/actions-yarn@v2.3.0
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build
+          cmd: build # will run `yarn build` command
+      - uses: borales/actions-yarn@v2.3.0
+        with:
+          cmd: test # will run `yarn test` command

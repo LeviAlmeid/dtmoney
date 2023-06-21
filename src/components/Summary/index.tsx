@@ -13,7 +13,7 @@ export function Summary(){
           <img src={icomeImg} alt="Entradas" />
         </header>
 
-        <strong>1000 conto</strong>
+        <strong>R$ 1000,00</strong>
       </div>
       <div>
         <header>
@@ -21,7 +21,7 @@ export function Summary(){
           <img src={outcomeImg} alt="Entradas" />
         </header>
 
-        <strong>- 500 conto</strong>
+        <strong>- R$ 500,00</strong>
       </div>
       <div className='high-background'>
         <header>
@@ -29,7 +29,7 @@ export function Summary(){
           <img src={totalcomeImg} alt="Entradas" />
         </header>
 
-        <strong> 500 conto</strong>
+        <strong>R$ 500,00</strong>
       </div>
     </Container>
   )

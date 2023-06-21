@@ -24,15 +24,15 @@ export function TransactionsTable() {
         <tbody>
           <tr>
             <td>Desenvolvimento de website</td>
-            <td className="deposit">12 mil conto</td>
+            <td className="deposit">R$ 2000,00</td>
             <td>Desenvolvimento</td>
-            <td>22/02/2002</td>
+            <td>22/02/2022</td>
           </tr>
           <tr>
             <td>Desenvolvimento de website</td>
-            <td className="withdraw">-1000 conto</td>
+            <td className="withdraw">R$ 1000,00</td>
             <td>Desenvolvimento</td>
-            <td>22/02/2002</td>
+            <td>24/02/2023</td>
           </tr>
         </tbody>
       </table>
